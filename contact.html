@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sweet House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="contact">
+  <div class="div">
+    <header class="entete">
+        <h1 class="principal">Sweet House</h1>
+        <h2>Contactez-nous</h2>
+        <p>Contactez-nous pour vos commandes et pour toute information complémentaire.</p>
+    </header>
+    <nav class="navigation">
+        <a class="lien" href="index.html">Accueil</a> <br>
+        <a class="lien" href="tranches.html">tranches de pâtisserie</a> <br>
+        <a class="lien" href="boulangerie.html">Boulangerie</a> <br>
+        <a class="lien" href="viennoiserie.html">Viennoiserie</a><br>
+        <a class="lien" href="mariage.html">Gâteux de mariage</a> <br>
+        <a class="lien" href="anniversaire.html">Gâteux d'anniversaire</a><br>
+        <a class="lien" href="contact.html">Contact</a>
+    </nav>
+</div>
+    <main class="contenu" id="contact2">
+        <section class="presontaion">
+          <h2 class="principal2">Contactez-nous</h2>
+          <p class="description">Vous souhaitez passer une commande ou demander un devis ? Contactez Sweet House pour plus d'informations.</p>
+         
+        </section>
+
+        <form class="formulaire" id="form" action="#" method="post">
+           <section class="group-formulaire">
+             <h2 class="principal2">Vos informations</h2>
+
+            <label for="nom">Nom :</label>
+            <input class="form" type="text" id="nom" name="nom" placeholder="nom" required>
+
+            <br><br>
+
+            <label for="prenom">Prénom :</label>
+            <input class="form" type="text" id="prenom" name="prenom" placeholder="prenom" required>
+
+            <br><br>
+
+            <label for="email">Adresse e-mail :</label>
+            <input class="form" type="email" id="email" name="email" placeholder="@gmail.com" required>
+
+            <br><br>
+
+            <label for="telephone">Téléphone :</label>
+            <input class="form" type="tel" id="telephone" name="telephone" placeholder="0777171020" required>
+
+            <br><br>
+        </section>
+        
+        <section class="group-formulaire">
+             <h2 class="principal2">Votre commande</h2>
+
+            <label for="produit">Choisissez un produit :</label>
+            <select class="champ-fourmulaire" id="produit" name="produit" required>
+                <option value="">Choisir un produit</option>
+                <option value="croissant">Croissant</option>
+                <option value="pain">Baguette</option>
+                <option value="tranche">Tranche de gâteau</option>
+                <option value="gateau-anniversaire">Gâteau d'anniversaire</option>
+                <option value="gateau-mariage">Gâteau de mariage</option>
+            </select>
+
+            <br><br>
+
+            <label for="quantite">Quantité :</label>
+            <input class="champ-formulaire" type="number" id="quantite" name="quantite"
+                   min="1" value="1" required>
+
+            <br><br>
+
+            <label for="date">Date de réception :</label>
+            <input class="champ-formulaire" type="date" id="date" name="date" required>
+
+        </section>
+
+        <section class="group-formulaire">
+            <h2 class="principal2">Personnalisation du gâteau</h2>
+
+            <label for="texte">Texte à écrire sur le gâteau :</label>
+            <input class="champ-formulaire" type="text" id="texte" name="texte"
+                   placeholder="Exemple : Joyeux anniversaire Sara">
+
+            <br><br>
+
+            <label for="decoration">Forme et décoration souhaitées :</label>
+            <textarea class="champ-formulaire" id="decoration" name="decoration" rows="4"
+                      placeholder="Couleurs, forme et décoration..."></textarea>
+
+        </section>
+
+        <section class="group-formulaire">
+            <h2 class="principal2">Mode de paiement</h2>
+
+            <label for="paiement">Choisissez un mode de paiement :</label>
+            <select class="champ-formulaire" id="paiement" name="paiement" required>
+                <option value="">Choisir un mode de paiement</option>
+                <option value="especes">Espèces</option>
+                <option value="virement">Virement bancaire</option>
+            </select>
+
+        
+
+        <br><br>
+
+            <label for="commentaire">Commentaire supplémentaire :</label>
+            <textarea class="champ-formulaire" id="commentaire" name="commentaire" rows="4"
+                      placeholder="Votre commentaire..."></textarea>
+        </section>
+
+            <br><br>
+
+            <button class="bouton" type="submit">Envoyer la commande</button>
+
+        </form>
+    </main>
+ <footer class="pied-page">
+  <div class="footer-main">
+    
+    <div class="footer-left">
+      <h2 class="titre-footer">Sweet House</h2>
+      <p class="slogan-footer">Votre pâtisserie, notre passion</p>
+      <p>Contactez-nous pour vos commandes.</p>
+    </div>
+
+    <div class="footer-right">
+      <p>
+        <strong>Téléphone :</strong>
+        <a class="lien-footer" href="tel:0777171020">0777171020</a>
+      </p>
+      <p>
+        <strong>Adresse :</strong> Dcheira El Jihadia, Maroc
+      </p>
+    </div>
+
+  </div>
+
+  <p class="copyright">
+    &copy; 2026 Sweet House - Tous droits réservés
+  </p>
+</footer>
+</body>
+</html>
